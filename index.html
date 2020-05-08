@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,103 +20,104 @@
             padding: 5px 50px;
         }
 
-            nav ul {
-                list-style: none;
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-            }
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
 
-                nav ul li {
-                    padding: 15px 0;
-                    cursor: pointer;
-                }
+        nav ul li {
+            padding: 15px 0;
+            cursor: pointer;
+        }
 
-                    nav ul li.items {
-                        position: relative;
-                        width: auto;
-                        margin: 0 15px;
-                        text-align: center;
-                        order: 3;
-                    }
+        nav ul li.items {
+            position: relative;
+            width: auto;
+            margin: 0 15px;
+            text-align: center;
+            order: 3;
+        }
 
-                    nav ul li a {
-                        color: springgreen;
-                        font-size: 16px;
-                        text-decoration: none;
-                    }
+        nav ul li a {
+            color: springgreen;
+            font-size: 16px;
+            text-decoration: none;
+        }
 
-                    nav ul li.items:after {
-                        position: absolute;
-                        left: 0;
-                        bottom: 5px;
-                        content: '';
-                        height: 2px;
-                        width: 100%;
-                        background: cyan;
-                        opacity: 0;
-                        transition: all 0.5s;
-                    }
+        nav ul li.items:after {
+            position: absolute;
+            left: 0;
+            bottom: 5px;
+            content: '';
+            height: 2px;
+            width: 100%;
+            background: cyan;
+            opacity: 0;
+            transition: all 0.5s;
+        }
 
-                    nav ul li.items:hover:after {
-                        opacity: 1;
-                        bottom: 15px;
-                    }
+        nav ul li.items:hover:after {
+            opacity: 1;
+            bottom: 15px;
+        }
 
-                    nav ul li:hover a {
-                        color: cyan;
-                    }
+        nav ul li:hover a {
+            color: cyan;
+        }
 
-                    nav ul li.logo {
-                        flex: 1;
-                        color: red;
-                        font-size: 10px;
-                        font-weight: 600;
-                        user-select: none;
-                    }
+        nav ul li.logo {
+            flex: 1;
+            color: red;
+            font-size: 10px;
+            font-weight: 600;
+            user-select: none;
+        }
 
-                    nav ul li i {
-                        font-size: 30px;
-                    }
+        nav ul li i {
+            font-size: 30px;
+        }
 
-                    nav ul li.btn {
-                        display: none;
-                    }
+        nav ul li.btn {
+            display: none;
+        }
 
-                        nav ul li.btn.hide i:before {
-                            counter: '\f00d';
-                        }
+        nav ul li.btn.hide i:before {
+            counter: '\f00d';
+        }
 
         @media all and (max-width: 800px) {
             nav {
                 padding: 5px 30px;
             }
 
-                nav ul li.items {
-                    width: 100%;
-                    display: none;
-                }
+            nav ul li.items {
+                width: 100%;
+                display: none;
+            }
 
-                    nav ul li.items:hover {
-                        box-shadow: inset 0 0 5 px cyan, inset 0 0 15px cyan;
-                        border-radius: 30px;
-                    }
+            nav ul li.items:hover {
+                box-shadow: inset 0 0 5 px cyan, inset 0 0 15px cyan;
+                border-radius: 30px;
+            }
 
-                        nav ul li.items:hover:after {
-                            opacity: 0;
-                        }
+            nav ul li.items:hover:after {
+                opacity: 0;
+            }
 
-                    nav ul li.items.show {
-                        display: block;
-                    }
+            nav ul li.items.show {
+                display: block;
+            }
 
-                nav ul li.btn {
-                    display: block;
-                }
+            nav ul li.btn {
+                display: block;
+            }
         }
     </style>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -141,14 +143,19 @@
             })
         })
     </script>
-    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 456px; overflow: hidden; visibility: hidden; background-color: #24262e;">
+    <div id="jssor_1"
+        style="position: relative;top: 0px; left: 0px;height: 456px; overflow: hidden; visibility: hidden; background-color: #24262e;">
         <!-- Loading Screen -->
-		  
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;" class="loading">
+            <div
+                style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;">
+            </div>
+            <div
+                style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;">
+            </div>
         </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 356px; overflow: hidden;">
+        <div data-u="slides"
+            style="cursor: default; position: relative; top: 0px; left: 0px; width:1600px; height: 356px; overflow: hidden;">
             <div data-p="144.50">
                 <img data-u="image" src="img/01.jpg" />
                 <img data-u="thumb" src="img/thumb-01.jpg" />
@@ -200,7 +207,8 @@
             <a href="https://www.51qianduan.com/">-</a>
         </div>
         <!-- Thumbnail Navigator -->
-        <div data-u="thumbnavigator" class="jssort01" style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
+        <div data-u="thumbnavigator" class="jssort01"
+            style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
             <!-- Thumbnail Item Skin Begin -->
             <div data-u="slides" style="cursor: default;">
                 <div data-u="prototype" class="p">
@@ -267,40 +275,47 @@
                 }
             };
 
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            var jssor_slider1 = new $JssorSlider$("jssor_1", jssor_1_options);
 
-            /*responsive code begin*/
-            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
             function ScaleSlider() {
-                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                if (refSize) {
-                    refSize = Math.min(refSize, 1000);
-                    jssor_1_slider.$ScaleWidth(refSize);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 1000000000000000);
-                }
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+                else
+                    window.setTimeout(ScaleSlider, 30);
             }
             ScaleSlider();
+
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);
+
             /*responsive code end*/
+
+
         });
     </script>
 
     <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
     </div>
     <style>
-        #jssor_1 {
-            height: auto;
-            width: auto;
+        #jssor_1 {	
+            height: 100%;
+            width: 100% !important;
             clear: left;
+			float: left;
         }
 
-            #jssor_1 img {
-                width: 100%;
-            }
+        #jssor_1 img {
+            width: 100% !important;
+			height: 100%;
+        }
+
+        .loading {
+            width: 100% !important;
+        }
     </style>
     <style>
         /* jssor slider arrow navigator skin 05 css */
@@ -314,7 +329,8 @@
         .jssora05l.jssora05lds      (disabled)
         .jssora05r.jssora05rds      (disabled)
         */
-        .jssora05l, .jssora05r {
+        .jssora05l,
+        .jssora05r {
             display: block;
             position: absolute;
             /* size of arrow element */
@@ -360,7 +376,9 @@
             opacity: .3;
             pointer-events: none;
         }
-        /* jssor slider thumbnail navigator skin 01 css */ /*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/
+
+        /* jssor slider thumbnail navigator skin 01 css */
+        /*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/
 
         .jssort01 .p {
             position: absolute;
@@ -427,9 +445,16 @@
             border: #000 2px solid;
         }
 
-        * html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c { /* ie quirks mode adjust */
-            width /**/: 72px;
-            height /**/: 72px;
+        * html .jssort01 .c,
+        * html .jssort01 .pdn .c,
+        * html .jssort01 .pav .c {
+            /* ie quirks mode adjust */
+            width
+            /**/
+            : 72px;
+            height
+            /**/
+            : 72px;
         }
     </style>
     <div id="sp">sp</div>
@@ -443,9 +468,12 @@
         }
 
 
-        @media screen and (max-width: 800px)   {
-            .left, .main, .right  {
-                width:  100%;
+        @media screen and (max-width: 800px) {
+
+            .left,
+            .main,
+            .right {
+                width: 100%;
             }
         }
     </style>
@@ -465,4 +493,5 @@
     </style>
 
 </body>
-        </html >
+
+</html>
